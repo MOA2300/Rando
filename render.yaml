@@ -1,7 +1,7 @@
 services:
   - type: web
     name: pictochat
-    env: docker
+    env: node
     plan: free
     autoDeploy: true
     buildCommand: ""
