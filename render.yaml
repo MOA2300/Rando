@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: pictochat
+    env: docker
+    plan: free
+    autoDeploy: true
+    buildCommand: ""
+    startCommand: "./start.sh"
+    envVars:
+      - key: PORT
+        value: 8080
